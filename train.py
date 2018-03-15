@@ -1,5 +1,4 @@
-if __name__ =="__main__":
-    from DeepModel import large_cnn_model,x_train,y_train,x_test,y_test
+from DeepModel import large_cnn_model,x_train,y_train,x_test,y_test
     # Fit the model
 large_cnn_model.fit(x_train, y_train, 
           validation_data=(x_test, y_test), 
